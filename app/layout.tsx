@@ -6,6 +6,7 @@ import Footer from "@/components/home/footer";
 
 
 
+
 export const metadata: Metadata = {
   title: "Oliyad | Personal Portfolio",
   description: "This is my Personal Portfolio",
@@ -18,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body className="">
        <ThemeProvider
             attribute="class"
