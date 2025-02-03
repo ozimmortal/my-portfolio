@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
 import { Plane } from "lucide-react";
@@ -39,7 +39,7 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
+          const {  error } = await sendEmail(formData);
 
           if (error) {
             toast({

@@ -3,15 +3,15 @@
 import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Image from "next/image";
-import { ArrowDown, ArrowRight,Github,Twitter,Linkedin } from "lucide-react";
+import { ArrowDown, ArrowRight,Github,Linkedin } from "lucide-react";
 import Link from "next/link";
 import { motion } from "motion/react";
 import ProjectCard from "@/components/home/project-card";
-import { projectsData,skillsData } from "@/lib/data";
+import { projectsData} from "@/lib/data";
 import Contact from "@/components/home/contact";
 import Skills from "@/components/home/skills";
 export default function Home() {
-  const introduction = "I’m a developer with a deep passion for building innovative and scalable applications. My expertise spans full-stack web development, software engineering,  and embedded systems.";
+  const introduction = `I'm a developer with a deep passion for building innovative and scalable applications. My expertise spans full-stack web development, software engineering,  and embedded systems.`;
   return (
     <div className="w-full flex items-center justify-center p-2" >
       <div className=" w-full md:w-[90%] lg:w-1/2 flex flex-col items-center">
@@ -51,9 +51,9 @@ export default function Home() {
             About Me
           </h2>
           <div className=" w-[80%] mt-10 mb-12   ">
-          Hi ! I'm Oliyad, a software engineering student and full-stack developer with a passion for building good software. 
+          Hi ! I&apos;m Oliyad, a software engineering student and full-stack developer with a passion for building good software. 
           With expertise in React (Next.js), Express.js, and Socket.io, I love turning ideas into functional, high-performance applications. Whether it's crafting dynamic frontends, optimizing backend performance, or integrating real-time features, I thrive on solving complex challenges with clean and efficient code.Beyond coding, you'll often find me exploring new tech trends, experimenting with AI tools, or diving into game logic development.
-           I'm always eager to learn, push boundaries, and create impactful solutions that blend innovation with practicality.
+           I&apos;m always eager to learn, push boundaries, and create impactful solutions that blend innovation with practicality.
           </div>
           </section>
           <section className="myprojects mt-4 mb-8 w-ful flex flex-col items-center " id="projects">

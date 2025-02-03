@@ -1,4 +1,3 @@
-import { IconHome2 } from '@tabler/icons-react';
 import * as React from 'react';
 
 interface EmailTemplateProps {

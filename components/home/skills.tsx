@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
 

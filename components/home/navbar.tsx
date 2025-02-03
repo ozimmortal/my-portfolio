@@ -1,8 +1,6 @@
 "use client";
 
-import React from 'react'
 import Link from 'next/link'
-import { Home } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { ModeToggle } from '../theme/mode-toggle';
 import { motion } from "motion/react";

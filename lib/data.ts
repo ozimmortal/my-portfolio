@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import quizImg from "@/public/quiz.png";
 import agrImg from "@/public/agar.png";
