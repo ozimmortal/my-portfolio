@@ -1,101 +1,88 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Image from "next/image";
-
+import { ArrowDown, ArrowRight,Github,Twitter,Linkedin } from "lucide-react";
+import Link from "next/link";
+import { motion } from "motion/react";
+import ProjectCard from "@/components/home/project-card";
+import { projectsData,skillsData } from "@/lib/data";
+import Contact from "@/components/home/contact";
+import Skills from "@/components/home/skills";
 export default function Home() {
+  const introduction = "I’m a developer with a deep passion for building innovative and scalable applications. My expertise spans full-stack web development, software engineering,  and embedded systems.";
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="w-full flex items-center justify-center p-2" >
+      <div className=" w-full md:w-[90%] lg:w-1/2 flex flex-col items-center">
+          <section className="hero mt-4 w-ful flex flex-col items-center" id="home">
+              <motion.div 
+              whileHover={{ scale: 1.2 }}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              >
+              <div className="relative shadow-md  border-yellow-100 rounded-full border-4">
+                <Image src="/profile.jpg" alt="Oliyad profile Image" quality={"95"} priority={true} width={120} height={120} className="rounded-full"></Image>
+                <p className="absolute bottom-0 right-0 text-2xl">👋</p>
+              </div>
+              </motion.div>
+              <div className="text-center w-[80%] mt-8 mb-10 ">
+                <h4 className="scroll-m-20 text-md font-semibold tracking-tight">
+              Hi, I am{"  "}
+              <span>Oliyad Zelalem 👋</span>
+            </h4>
+                  <TextGenerateEffect duration={0.5} words={introduction} className="text-slate-200 text-lg mt-4" />
+              </div>
+              <div className="flex gap-2 mt-8">
+                <Button onClick={() => {window.location.href="#contact"}}>Contact me here <ArrowRight /></Button>
+                <a className="bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 flex items-center gap-2 rounded-md text-sm" href="/resume.pdf" download={true}>Download Cv  <ArrowDown className="size-4" /></a>
+              </div>
+              <div className="flex gap-3 mt-8">
+                  <Link className="border p-3 rounded-full shadow-sm hover:bg-slate-50" href="https://github.com/ozimmortal" ><Github  /></Link>
+                  <Link className="border p-3 rounded-full shadow-sm hover:bg-slate-50" href="https://www.linkedin.com/in/oliyad-zelalem" ><Linkedin /></Link>
+              </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+              <div className="mt-8 border-l-2 h-14 border-l-slate-200">
+
+              </div>
+          </section>
+          <section className="aboutme mt-20 mb-12 w-ful flex flex-col items-center " id="about">
+          <h2 className="scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
+            About Me
+          </h2>
+          <div className=" w-[80%] mt-10 mb-12   ">
+          Hi ! I'm Oliyad, a software engineering student and full-stack developer with a passion for building good software. 
+          With expertise in React (Next.js), Express.js, and Socket.io, I love turning ideas into functional, high-performance applications. Whether it's crafting dynamic frontends, optimizing backend performance, or integrating real-time features, I thrive on solving complex challenges with clean and efficient code.Beyond coding, you'll often find me exploring new tech trends, experimenting with AI tools, or diving into game logic development.
+           I'm always eager to learn, push boundaries, and create impactful solutions that blend innovation with practicality.
+          </div>
+          </section>
+          <section className="myprojects mt-4 mb-8 w-ful flex flex-col items-center " id="projects">
+            <h2 className="scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
+              My Projects
+            </h2>
+            <div className="w-[97%] mt-10" >
+            {projectsData.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
+            </div>
+          </section>
+          <section className="myprojects mt-10  w-ful flex flex-col items-center " id="skills">
+          <h2 className="scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
+              My Skills
+            </h2>
+            <div className="w-[97%] mt-10 flex flex-wrap gap-4">
+              <Skills/>
+            </div>
+          </section>
+          <section className="myprojects  mb-8 w-ful flex flex-col items-center" id="contact">
+            <h2 className="scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
+              Contact me
+            </h2>
+            <div className="w-[97%] mt-10" >
+              <Contact/>
+            </div>
+          </section>
+      </div>
     </div>
   );
 }
