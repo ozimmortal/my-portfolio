@@ -52,7 +52,7 @@ export default function Home() {
           </h2>
           <div className=" w-[80%] mt-10 mb-12   ">
           Hi ! I&apos;m Oliyad, a software engineering student and full-stack developer with a passion for building good software. 
-          With expertise in React (Next.js), Express.js, and Socket.io, I love turning ideas into functional, high-performance applications. Whether it's crafting dynamic frontends, optimizing backend performance, or integrating real-time features, I thrive on solving complex challenges with clean and efficient code.Beyond coding, you'll often find me exploring new tech trends, experimenting with AI tools, or diving into game logic development.
+          With expertise in React (Next.js), Express.js, and Socket.io, I love turning ideas into functional, high-performance applications. Whether it&apos;s crafting dynamic frontends, optimizing backend performance, or integrating real-time features, I thrive on solving complex challenges with clean and efficient code.Beyond coding, you&apos;ll often find me exploring new tech trends, experimenting with AI tools, or diving into game logic development.
            I&apos;m always eager to learn, push boundaries, and create impactful solutions that blend innovation with practicality.
           </div>
           </section>

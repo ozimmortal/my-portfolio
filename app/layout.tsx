@@ -8,7 +8,7 @@ import Footer from "@/components/home/footer";
 
 export const metadata: Metadata = {
   title: "Oliyad | Personal Portfolio",
-  description: "This is Oliyad's Personal Portfolio",
+  description: "This is my Personal Portfolio",
 };
 
 export default function RootLayout({
