@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <div className="flex gap-2 mt-8">
                 <Button onClick={() => {window.location.href="#contact"}}>Contact me here <ArrowRight /></Button>
-                <a className="bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 flex items-center gap-2 rounded-md text-sm" href="/resume.pdf" download={true}>Download Cv  <ArrowDown className="size-4" /></a>
+                <a className="bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 flex items-center gap-2 rounded-md text-sm" href="/oresume.pdf" download={true}>Download Cv  <ArrowDown className="size-4" /></a>
               </div>
               <div className="flex gap-3 mt-8">
                   <Link className="border p-3 rounded-full shadow-sm hover:bg-slate-50" href="https://github.com/ozimmortal" ><Github  /></Link>
