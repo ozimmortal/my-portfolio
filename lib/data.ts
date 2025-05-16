@@ -4,6 +4,7 @@ import quizImg from "@/public/quiz.png";
 import agrImg from "@/public/agar.png";
 import pollImg from "@/public/poll.png";
 import whiteboardImg from "@/public/whiteboard.png";
+import solplusImg from "@/public/solpluse.png";
 
 
 export const projectsData = [
@@ -34,6 +35,13 @@ export const projectsData = [
           "A simple whiteboard made using Nextjs for frontend and express for backend. It has features like drawing, erasing and saving whiteboard images.",
         tags: ["Nextjs", "Tailwindcss","Socket.io","Node.js"],
         imageUrl: whiteboardImg,
+      },
+      {
+        title: "Solpluse ",
+        description:
+          "It is a Solana Wallet activity checkerthat I built",
+        tags: ["Nextjs", "Tailwindcss","Upstash Reddis","Node.js","REST API"],
+        imageUrl: solplusImg,
       },
   ] as const;
 
