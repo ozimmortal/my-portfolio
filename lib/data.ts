@@ -2,10 +2,9 @@
 
 import quizImg from "@/public/quiz.png";
 import agrImg from "@/public/agar.png";
-import pollImg from "@/public/poll.png";
 import whiteboardImg from "@/public/whiteboard.png";
 import solplusImg from "@/public/solpluse.png";
-
+import tiny from "@/public/tiny.png"
 
 export const projectsData = [
     {
@@ -23,11 +22,11 @@ export const projectsData = [
       imageUrl: agrImg,
     },
     {
-      title: "Polling App",
+      title: "Tiny Terms",
       description:
-        "A simple polling app made using svelte. It has features like adding, deleting and editing polls.",
-      tags: ["Svelte", "Css"],
-      imageUrl: pollImg,
+        "A website that helps you generate clean, personalized Privacy Policies and Terms of Service for other website in seconds",
+      tags: ["Nextjs", "Gemini APi ","Tailwindcss","Vercel","Node.js","REST API"],
+      imageUrl: tiny,
     },
     {
         title: "Collaborative Whiteboard",
