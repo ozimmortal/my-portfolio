@@ -1,0 +1,94 @@
+{
+  "homepage": {
+    "header": {
+      "jobtitle": "Ingeniero de Software",
+      "hireme": "Contrátame"
+    },
+    "profile": {
+      "description": "Soy un ingeniero de software apasionado por DevOps y el desarrollo fullstack, construyendo sistemas escalables y flujos de trabajo de implementación sin problemas."
+    },
+    "skillsandtechnologies": {
+      "title": "Habilidades y Tecnologías"
+    },
+    "focusareas": {
+      "title": "Áreas de Enfoque",
+      "fullstack": "Desarrollo Web Full-Stack",
+      "devops": "DevOps y Automatización de Infraestructura",
+      "scalability": "Diseño de Sistemas Escalables y en la Nube",
+      "automation": "Herramientas de IA y Automatización de Flujos de Trabajo"
+    },
+    "services": {
+      "title": "Servicios que Ofrezco",
+      "fullstack": {
+        "title": "Desarrollo Web Full-Stack",
+        "description": "Construyo aplicaciones web receptivas y fáciles de usar utilizando frameworks modernos como React, Next.js y Tailwind CSS. Mi enfoque está en crear experiencias de usuario fluidas y arquitecturas front-end eficientes."
+      },
+      "devops": {
+        "title": "DevOps y Automatización CI/CD",
+        "description": "Implemento pipelines CI/CD robustos y automatizo la provisión de infraestructura utilizando herramientas como Docker, Kubernetes y Terraform. Mi objetivo es optimizar los flujos de trabajo de desarrollo y mejorar la eficiencia de las implementaciones."
+      },
+      "ai": {
+        "title": "Herramientas de IA y Automatización de Flujos de Trabajo",
+        "description": "Desarrollo herramientas impulsadas por IA y automatizo flujos de trabajo para aumentar la productividad. Aprovechando modelos de aprendizaje automático y APIs, creo soluciones que simplifican tareas complejas y mejoran la eficiencia operativa."
+      },
+      "api": {
+        "title": "Desarrollo e Integración de API",
+        "description": "Diseño y desarrollo APIs RESTful escalables utilizando FastAPI y Node.js. También me especializo en integrar servicios de terceros para mejorar la funcionalidad y el rendimiento de las aplicaciones."
+      }
+    }
+  },
+  "layout": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "blogs": "Blogs"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Aún no hay publicaciones en el blog, pero planeo comenzar a escribir pronto.",
+    "backhome": "Volver al Inicio"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy un ingeniero de software dedicado con una pasión por crear soluciones eficientes y escalables. Con experiencia en desarrollo full-stack y DevOps, me especializo en construir sistemas robustos y automatizar flujos de trabajo para mejorar la productividad.",
+    "projects": {
+      "title": "Proyectos en los que he trabajado",
+      "tinyterms": {
+        "title": "Tiny Terms",
+        "description": "Un emulador de terminal minimalista construido con React y Tailwind CSS, diseñado para la simplicidad y facilidad de uso. Ofrece funcionalidades esenciales de terminal en una interfaz limpia y fácil de usar."
+      },
+      "solpluse": {
+        "title": "SolPluse",
+        "description": "Un verificador de actividad de billeteras Solana construido con Next.js y Tailwind CSS. Permite a los usuarios monitorear y rastrear las actividades de sus billeteras en la cadena de bloques Solana."
+      },
+      "detoxify": {
+        "title": "Servicio API Detoxify",
+        "description": "Un servicio API RESTful construido con FastAPI que aprovecha el modelo Detoxify para analizar y clasificar texto en función de su toxicidad. El servicio proporciona puntos finales para que los clientes envíen datos de texto y reciban puntuaciones de toxicidad, facilitando la moderación de contenido y la comunicación segura."
+      },
+      "reactminisearch": {
+        "title": "React Mini Search",
+        "description": "Un componente de búsqueda ligero construido con React que permite la búsqueda y filtrado eficientes de conjuntos de datos. Proporciona una interfaz simple e intuitiva para que los usuarios encuentren rápidamente información relevante dentro de grandes colecciones de datos."
+      },
+      "0docs": {
+        "title": "0Docs (En curso)",
+        "description": "Una plantilla de documentación de código abierto para Nextjs construida con Tailwind CSS. Proporciona un diseño limpio y organizado para crear y alojar documentación de proyectos, facilitando a los desarrolladores compartir información sobre sus proyectos de software."
+      }
+    },
+    "experience": {
+      "title": "Experiencia",
+      "places": {
+        "freelancer": {
+          "role": "Desarrollador web freelance",
+          "duration": "01/2025 – 02/2025",
+          "description": "Realicé una pasantía en desarrollo de software en Ethronics, donde diseñé y desarrollé una API RESTful escalable, construí un sitio web receptivo y amigable con SEO utilizando React y Tailwind CSS, y colaboré con el equipo de ingeniería para mejorar la confiabilidad y el rendimiento del sistema.",
+          "company": "Freelancer"
+        },
+        "internship": {
+          "role": "Pasantía en desarrollo de software",
+          "duration": "07/2025 – 09/2025",
+          "description": "Realicé una pasantía en desarrollo de software en Ethronics, donde diseñé y desarrollé una API RESTful escalable, construí un sitio web receptivo y amigable con SEO utilizando React y Tailwind CSS, y colaboré con el equipo de ingeniería para mejorar la confiabilidad y el rendimiento del sistema.",
+          "company": "Ethronics"
+        }
+      }
+    }
+  }
+}

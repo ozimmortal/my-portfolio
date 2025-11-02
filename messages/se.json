@@ -1,0 +1,94 @@
+{
+  "homepage": {
+    "header": {
+      "jobtitle": "mjukvaruingenjör",
+      "hireme": "Anställ mig"
+    },
+    "profile": {
+      "description": "Jag är en mjukvaruingenjör som brinner för DevOps och fullstackutveckling, och bygger skalbara system och smidiga distributionsarbetsflöden."
+    },
+    "skillsandtechnologies": {
+      "title": "Färdigheter & Tekniker"
+    },
+    "focusareas": {
+      "title": "Fokusområden",
+      "fullstack": "Full-Stack Webbutveckling",
+      "devops": "DevOps & Infrastrukturautomation",
+      "scalability": "Moln & Skalbar Systemdesign",
+      "automation": "AI-verktyg & Arbetsflödesautomation"
+    },
+    "services": {
+      "title": "Tjänster jag erbjuder",
+      "fullstack": {
+        "title": "Full-Stack Webbutveckling",
+        "description": "Jag bygger responsiva och användarvänliga webbapplikationer med moderna ramverk som React, Next.js och Tailwind CSS. Mitt fokus ligger på att skapa sömlösa användarupplevelser och effektiva front-end-arkitekturer."
+      },
+      "devops": {
+        "title": "DevOps & CI/CD-automation",
+        "description": "Jag implementerar robusta CI/CD-pipelines och automatiserar infrastrukturprovisionering med verktyg som Docker, Kubernetes och Terraform. Mitt mål är att effektivisera utvecklingsarbetsflöden och förbättra distributions effektiviteten."
+      },
+      "ai": {
+        "title": "AI-verktyg & Arbetsflödesautomation",
+        "description": "Jag utvecklar AI-drivna verktyg och automatiserar arbetsflöden för att öka produktiviteten. Genom att utnyttja maskininlärningsmodeller och API:er skapar jag lösningar som förenklar komplexa uppgifter och förbättrar driftseffektiviteten."
+      },
+      "api": {
+        "title": "API-utveckling & Integration",
+        "description": "Jag designar och utvecklar skalbara RESTful API:er med FastAPI och Node.js. Jag specialiserar mig också på att integrera tredjepartstjänster för att förbättra applikationens funktionalitet och prestanda."
+      }
+    }
+  },
+  "layout": {
+    "home": "Hem",
+    "about": "Om mig",
+    "blogs": "Bloggar"
+  },
+  "blog": {
+    "title": "Blogg",
+    "description": "Inga blogginlägg än, men jag planerar att börja skriva snart.",
+    "backhome": "Tillbaka hem"
+  },
+  "about": {
+    "title": "Om mig",
+    "description": "Jag är en dedikerad mjukvaruingenjör med en passion för att skapa effektiva och skalbara lösningar. Med expertis inom både fullstackutveckling och DevOps trivs jag med att bygga robusta system och automatisera arbetsflöden för att öka produktiviteten.",
+    "projects": {
+      "title": "Projekt jag har arbetat med",
+      "tinyterms": {
+        "title": "Tiny Terms",
+        "description": "En minimal terminalemulator byggd med React och Tailwind CSS, designad för enkelhet och användarvänlighet. Den erbjuder grundläggande terminalfunktioner i ett rent och användarvänligt gränssnitt."
+      },
+      "solpluse": {
+        "title": "SolPluse",
+        "description": "En Solana Wallet-aktivitetskontroll byggd med Next.js och Tailwind CSS. Den tillåter användare att övervaka och spåra sina plånboksaktiviteter på Solana-blockkedjan."
+      },
+      "detoxify": {
+        "title": "Detoxify Api Service",
+        "description": "En RESTful API-tjänst byggd med FastAPI som utnyttjar Detoxify-modellen för att analysera och klassificera text för toxicitet. Tjänsten tillhandahåller slutpunkter för klienter att skicka textdata och ta emot toxicitetsbetyg, vilket underlättar innehållsmoderering och säker kommunikation."
+      },
+      "reactminisearch": {
+        "title": "React Mini Search",
+        "description": "En lättvikts sökkomponent byggd med React som möjliggör effektiv sökning och filtrering av datamängder. Den erbjuder ett enkelt och intuitivt gränssnitt för användare att snabbt hitta relevant information inom stora datainsamlingar."
+      },
+      "0docs": {
+        "title": "0Docs (Ongoing)",
+        "description": "En Opensource Documentation Nextjs Template byggd med Tailwind CSS. Den tillhandahåller en ren och organiserad layout för att skapa och värd projektets dokumentation, vilket gör det enkelt för utvecklare att dela information om sina programvaruprojekt."
+      }
+    },
+    "experience": {
+      "title": "Erfarenhet",
+      "places": {
+        "freelancer": {
+          "role": "Frilansande webbutvecklare",
+          "duration": "01/2025 – 02/2025",
+          "description": "Genomfört en praktikplats inom mjukvaruutveckling på Ethronics, där jag designade och utvecklade en skalbar RESTful API, byggde en responsiv och SEO-vänlig webbplats med React och Tailwind CSS, och samarbetade med ingenjörsteamet för att förbättra systemets tillförlitlighet och prestanda.",
+          "company": "Frilansare"
+        },
+        "internship": {
+          "role": "Mjukvaruutvecklingspraktikant",
+          "duration": "07/2025 – 09/2025",
+          "description": "Genomfört en praktikplats inom mjukvaruutveckling på Ethronics, där jag designade och utvecklade en skalbar RESTful API, byggde en responsiv och SEO-vänlig webbplats med React och Tailwind CSS, och samarbetade med ingenjörsteamet för att förbättra systemets tillförlitlighet och prestanda.",
+          "company": "Ethronics"
+        }
+      }
+    }
+  }
+}

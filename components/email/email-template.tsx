@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 interface EmailTemplateProps {
   message: string;
@@ -6,18 +6,17 @@ interface EmailTemplateProps {
 }
 
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
-  message,senderEmail
+  message,
+  senderEmail,
 }) => (
-    
-        <div>
-          <section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-            <h2 className="leading-tight">
-              You received the following message from the contact form
-            </h2>
-            <p>{message}</p>
-            <br />
-            <p>The sender&apos;s email is: {senderEmail}</p>
-          </section>
-        </div>
-     
+  <div>
+    <section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+      <h2 className="leading-tight">
+        You received the following message from the contact form
+      </h2>
+      <p>{message}</p>
+      <br />
+      <p>The sender&apos;s email is: {senderEmail}</p>
+    </section>
+  </div>
 );

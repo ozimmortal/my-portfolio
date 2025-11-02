@@ -1,0 +1,94 @@
+{
+  "homepage": {
+    "header": {
+      "jobtitle": "Software Engineer",
+      "hireme": "Hire Me"
+    },
+    "profile": {
+      "description": "I'm a software engineer passionate about DevOps and fullstack development, building scalable systems and smooth deployment workflows."
+    },
+    "skillsandtechnologies": {
+      "title": "Skills & Technologies"
+    },
+    "focusareas": {
+      "title": "Focus Areas",
+      "fullstack": "Full-Stack Web Development",
+      "devops": "DevOps & Infrastructure Automation",
+      "scalability": "Cloud  & Scalable Systems Design",
+      "automation": "AI Tools & Workflow Automation"
+    },
+    "services": {
+      "title": "Services I Offer",
+      "fullstack": {
+        "title": "Full-Stack Web Development",
+        "description": "I build responsive and user-friendly web applications using modern frameworks like React, Next.js, and Tailwind CSS. My focus is on creating seamless user experiences and efficient front-end architectures."
+      },
+      "devops": {
+        "title": "DevOps & CI/CD Automation",
+        "description": "I implement robust CI/CD pipelines and automate infrastructure provisioning using tools like Docker, Kubernetes, and Terraform. My goal is to streamline development workflows and enhance deployment efficiency."
+      },
+      "ai": {
+        "title": "AI Tools & Workflow Automation",
+        "description": "I develop AI-powered tools and automate workflows to boost productivity. Leveraging machine learning models and APIs, I create solutions that simplify complex tasks and improve operational efficiency."
+      },
+      "api": {
+        "title": "API Development & Integration",
+        "description": "I design and develop scalable RESTful APIs using FastAPI and Node.js. I also specialize in integrating third-party services to enhance application functionality and performance."
+      }
+    }
+  },
+  "layout": {
+    "home": "Home",
+    "about": "About Me",
+    "blogs": "Blogs"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "No blog posts yet, but I’m planning to start writing soon.",
+    "backhome": "Back Home"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a dedicated software engineer with a passion for creating efficient and scalable solutions. With expertise in both full-stack development and DevOps, I thrive on building robust systems and automating workflows to enhance productivity.",
+    "projects": {
+      "title": "Projects I've Worked On",
+      "tinyterms": {
+        "title": "Tiny Terms",
+        "description": "A minimal terminal emulator built with React and Tailwind CSS, designed for simplicity and ease of use. It offers essential terminal functionalities in a clean and user-friendly interface."
+      },
+      "solpluse": {
+        "title": "SolPluse",
+        "description": "A Solana Wallet activity checker built with Next.js and Tailwind CSS. It allows users to monitor and track their wallet activities on the Solana blockchain."
+      },
+      "detoxify": {
+        "title": "Detoxify Api Service",
+        "description": "A RESTful API service built with FastAPI that leverages the Detoxify model to analyze and classify text for toxicity. The service provides endpoints for clients to submit text data and receive toxicity scores, facilitating content moderation and safe communication."
+      },
+      "reactminisearch": {
+        "title": "React Mini Search",
+        "description": "A lightweight search component built with React that enables efficient searching and filtering of data sets. It provides a simple and intuitive interface for users to quickly find relevant information within large collections of data."
+      },
+      "0docs": {
+        "title": "0Docs (Ongoing)",
+        "description": "An Opensource Documentation Nextjs Template built with Tailwind CSS. It provides a clean and organized layout for creating and hosting project documentation, making it easy for developers to share information about their software projects."
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "places": {
+        "freelancer": {
+          "role": "Freelance Webdeveloper",
+          "duration": "01/2025 – 02/2025",
+          "description": "Completed a Software Engineering Internship at Ethronics, where I designed and developed a scalable RESTful API, built a responsive and SEO-friendly website using React and Tailwind CSS, and collaborated with the engineering team to enhance system reliability and performance.",
+          "company": "Freelancer"
+        },
+        "internship": {
+          "role": "Software Engineering Intern",
+          "duration": "07/2025 – 09/2025",
+          "description": "Completed a Software Engineering Internship at Ethronics, where I designed and developed a scalable RESTful API, built a responsive and SEO-friendly website using React and Tailwind CSS, and collaborated with the engineering team to enhance system reliability and performance.",
+          "company": "Ethronics"
+        }
+      }
+    }
+  }
+}
