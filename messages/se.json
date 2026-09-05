@@ -87,6 +87,12 @@
           "duration": "07/2025 – 09/2025",
           "description": "Genomfört en praktikplats inom mjukvaruutveckling på Ethronics, där jag designade och utvecklade en skalbar RESTful API, byggde en responsiv och SEO-vänlig webbplats med React och Tailwind CSS, och samarbetade med ingenjörsteamet för att förbättra systemets tillförlitlighet och prestanda.",
           "company": "Ethronics"
+        },
+        "internship2":{
+          "role": "Webbutvecklare",
+          "duration": "07/2026 – nuvarande",
+          "description": "Byggde och integrerade backend-tjänster i Go och Node.js inom ett produktionsmikrotjänstsystem, implementerade kärnverksamhetslogik och autentiseringsarbetsflöden tillsammans med seniora ingenjörer. Samarbetade med frontend- och backendteam för att integrera API:er, koppla frontend-applikationer med backend-tjänster och leverera säkra, produktionsklara funktioner, med särskilt fokus på autentisering, auktorisering och sömlös frontend-backend-integration.",
+          "company": "Esclate(A2SV)"
         }
       }
     }

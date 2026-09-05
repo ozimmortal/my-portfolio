@@ -56,6 +56,14 @@ export default function About() {
         timeSpent: t("experience.places.internship.duration"),
         description: t("experience.places.internship.description"),
       },
+      {
+        jobTitle: t("experience.places.internship2.role"),
+        jobPlace: t("experience.places.internship2.company"),
+        timeSpent: t("experience.places.internship2.duration"),
+        description: t("experience.places.internship2.description")
+      },
+      
+      
     ],
   };
 

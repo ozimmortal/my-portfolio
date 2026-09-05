@@ -87,6 +87,12 @@
           "duration": "07/2025 – 09/2025",
           "description": "Completed a Software Engineering Internship at Ethronics, where I designed and developed a scalable RESTful API, built a responsive and SEO-friendly website using React and Tailwind CSS, and collaborated with the engineering team to enhance system reliability and performance.",
           "company": "Ethronics"
+        },
+        "internship2":{
+          "role": "Web Developer",
+          "duration": "07/2026 – present",
+          "description": "Built and integrated backend services in Go and Node.js within a production microservices system, implementing core business logic and authentication workflows alongside senior engineers. Collaborated with frontend and backend teams to integrate APIs, connect frontend applications with backend services, and deliver secure, production-ready features, with a particular focus on authentication, authorization, and seamless frontend–backend integration.",
+          "company": "Esclate(A2SV)"
         }
       }
     }

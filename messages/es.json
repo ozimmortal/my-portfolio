@@ -87,6 +87,12 @@
           "duration": "07/2025 – 09/2025",
           "description": "Realicé una pasantía en desarrollo de software en Ethronics, donde diseñé y desarrollé una API RESTful escalable, construí un sitio web receptivo y amigable con SEO utilizando React y Tailwind CSS, y colaboré con el equipo de ingeniería para mejorar la confiabilidad y el rendimiento del sistema.",
           "company": "Ethronics"
+        },
+        "internship2":{
+          "role": "Desarrollador web",
+          "duration": "07/2026 – presente",
+          "description": "Construí e integré servicios backend en Go y Node.js dentro de un sistema de microservicios en producción, implementando la lógica empresarial central y los flujos de trabajo de autenticación junto con ingenieros senior. Colaboré con equipos frontend y backend para integrar APIs, conectar aplicaciones frontend con servicios backend y entregar funciones listas para producción, con un enfoque particular en autenticación, autorización e integración fluida entre frontend y backend.",
+          "company": "Esclate(A2SV)"
         }
       }
     }
